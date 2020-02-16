@@ -18,15 +18,7 @@ public class BookRatings {
         return Book_Title;
     }
     String authorName(String authorName){
-        if (authorName.equals("FD")){
-            Author_Name = "Franklin Dixon";
-        }
-        else if (authorName.equals("GO")){
-            Author_Name = "George Orwell";
-        }
-        else {
-            Author_Name = "Unknown";
-        }
+        Author_Name = authorName;
         return Author_Name;
     }
     String bookRating(int bookRating){
